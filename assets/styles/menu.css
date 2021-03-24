@@ -1,0 +1,191 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 81px;
+    background: #AED9E0;
+    margin: 0;
+}
+
+html, body {
+    
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    
+}
+
+.navigation a{
+    font-family: Josefin Slab;
+    text-align: center;
+    color: #5E6472;
+    text-decoration: none;
+    font-size: 35px;
+    padding: 40px;
+    text-decoration-thickness: 0.1em;
+}
+
+.navigation a.logo {
+    font-family: Grand Hotel;
+    color: #FFFFFF;
+    padding: 80px;
+    font-size: 50px;
+}
+
+.navigation a.active {
+    text-decoration: underline;
+}
+
+.first-donut {
+    margin: 0;
+    width: auto;
+    height: 505px;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    
+}
+
+.first-donut h1.top {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    margin: 0 auto;
+    font-family: Lato;
+    font-size: 50;
+    color: #5E6472;
+    text-align: center;
+}
+
+.first-donut img.v2 {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+.first-row {
+    background: #FAF3DC;
+    margin: 0;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+h2 {
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 50;
+    color: #FB7063;
+    letter-spacing: 5px;
+    margin-left: 60px;
+    margin-bottom: 0;
+}
+
+span.slash {
+    color: #5E6472;
+}
+
+span.price { 
+    color: #4CD0E5;
+    font-size: 40;  
+}
+
+.first-body {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+ul {
+    font-family: Josefin Slab;
+    font-size: 45;
+    list-style-type: none;
+    color: #5E6472;
+}
+
+ul.types{
+    color: #5E6472;
+}
+
+ul.icings{
+    color: #21646F;
+}
+
+ul.toppings {
+    color: #754945;
+}
+
+li:first-child{
+    font-weight: bold;
+}
+
+.second-row {
+    background: #FAF3DC;
+    margin: 0;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.second-body {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+ul.sec-col li:first-child{
+    font-weight:normal;
+}
+
+.third-row {
+    background: #FAF3DC;
+    margin: 0;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    height: fit-content;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.third-body {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.fourth-row {
+    background: #FAF3DC;
+    margin: 0;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    height: fit-content;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+ul.price{
+    color: #21646F;
+}
